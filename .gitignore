@@ -1,1 +1,4 @@
 /build
+/fpgavga_Implmnt/
+stdout.log
+synlog.tcl

@@ -2,9 +2,9 @@
 #-- Project file Y:\jferner\dev\fpga-vga\fpgavga\fpgavga_syn.prj
 #project files
 
-add_file -verilog -lib work "../vga.v" 
-add_file -verilog -lib work "../vga_driver.v" 
-add_file -constraint -lib work "../vga.sdc"
+add_file -verilog -lib work "hdl/vga.v" 
+add_file -verilog -lib work "hdl/vga_driver.v" 
+add_file -constraint -lib work "vga.sdc"
 #implementation: "fpgavga_Implmnt"
 impl -add fpgavga_Implmnt -type fpga
 
