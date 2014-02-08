@@ -1,0 +1,7 @@
+set_io CLK_3_33_MHZ 13
+
+set_io vga_h_sync 29
+set_io vga_v_sync 30
+set_io r          65
+set_io g          63
+set_io b          41
