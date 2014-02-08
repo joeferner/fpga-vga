@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 
 // http://tinyvga.com/vga-timing
+// http://www.xess.com/static/media/uploads/blog/devbisme/2011-06-11/app001_2.png (docs/vga_timing.png)
 
 module VGA(clk, vga_h_sync, vga_v_sync, r, g, b);
   input wire clk;
